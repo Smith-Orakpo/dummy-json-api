@@ -1,0 +1,27 @@
+{
+  "name": "dummy_json_api",
+  "version": "1.0.0",
+  "description": "dummy json api for prototyping",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch database.js --port 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Smith-Orakpo/dummy-json-api.git"
+  },
+  "keywords": [
+    "api",
+    "json"
+  ],
+  "author": "smith orakpo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Smith-Orakpo/dummy-json-api/issues"
+  },
+  "homepage": "https://github.com/Smith-Orakpo/dummy-json-api#readme",
+  "devDependencies": {
+    "faker": "^5.1.0",
+    "json-server": "^0.16.3"
+  }
+}
